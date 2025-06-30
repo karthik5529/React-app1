@@ -1,0 +1,71 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #212020;
+}
+
+[data-theme='dark'] {
+  --bg-color: #212020;
+  --text-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  animation: slideIn 0.4s ease forwards;
+  display: none;
+}
+
+/* Animation */
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Theme Button */
+.theme-btn {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  background: transparent;
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  cursor: pointer;
+}
+
+.hamimg{
+    cursor: pointer;
+    padding-top:1%;
+    padding-left: 1.5%;
+    border-radius: 98%;
+    height: 3%;
+    width: 3%;
+    
+}
+.backimg {
+    height: 10%;
+    width: 10%;
+    cursor: pointer;
+}
+.ham{
+  position: 0;
+}

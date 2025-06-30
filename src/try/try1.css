@@ -1,0 +1,14 @@
+.element {
+    padding: 2%;
+    padding: 3px;
+    margin-bottom: 1.5px;
+    border: 1px solid black;
+    width: fit-content;
+    color: white;
+    cursor: pointer;
+}
+.cont {
+    height: 100vh;
+ background: radial-gradient(at left top, #194EEB, #D10DE8);
+ width: 30%;
+}

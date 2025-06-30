@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.containertop {
+ background: radial-gradient(at left top, #194EEB, #D10DE8);
+    padding-bottom: 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;         /* full width */
+    height: 60px;        /* desired height */
+    z-index: 50;   
+}
+.maintxt {
+color: whitesmoke;
+}

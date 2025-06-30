@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Head{
+    padding-top: 15%;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    font-style: normal;
+
+}
+.head1{
+    margin: 0;
+}
+.container1 {
+    margin-top: 3%;
+}
